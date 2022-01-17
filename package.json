@@ -1,5 +1,5 @@
 {
-  "name": "Express",
+  "name": "express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "ej1": "nodemon ej1.js",
-    "ej2": "nodemon ej2.js"
+    "ej2": "nodemon ej2.js",
+    "ej3": "nodemon ej3.js"
   },
   "keywords": [],
   "author": "",

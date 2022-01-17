@@ -84,7 +84,6 @@ app.put('/:id',(req,res)=>{
 
 app.delete('/:id',(req,res)=>{
     const found = members.some( member=> member.id === +req.params.id)
-
     if(found){
         res.json( members.filter(member=> member.id !== +req.params.id))
     }else{

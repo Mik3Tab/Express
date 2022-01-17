@@ -23,6 +23,18 @@ app.get('/Usuarios', (req,res)=>{
     res.send("Listado de usuarios:");
 })
 
+app.post('/Usuarios', (req, res) =>{
+    res.send("Crear un usuario");
+})
+
+app.put('/Usuarios',(req, res) =>{
+    res.send("Actualizar un usuario");
+})
+
+app.delete('/Usuario', (req,res)=>{
+    res.send("Borrar un usuario");
+})
+
 app.listen('5000', () =>{
     console.log('Ejercicio 2 Express Node.js');
 })
